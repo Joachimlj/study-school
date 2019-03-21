@@ -1,0 +1,46 @@
+.page-footer {
+  color: #000;
+  border-top: 3px solid #DD1C49;
+
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #DD1C49;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+
+
+
+  &__top-section {
+    padding: 4rem 0;
+  }
+
+  &__bottom-section {
+    background-color: #ffff;
+    padding: 2rem 0;
+
+    a {
+      color: $primary-darken-grey-color;
+      padding-top: 0.7rem;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

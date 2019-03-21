@@ -1,0 +1,24 @@
+:root {
+  font-size: $base-font-size;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: $base-font;
+  color: #333;
+  font-weight: 400;
+  line-height: $base-line-height;
+  font-size: 1rem;
+  background-color: $body-bg;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border: none;
+}

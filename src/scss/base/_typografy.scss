@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1.3rem;
+}
+
+h3.title-is-red { 
+  color: $primary-red-color;
+}
+
+.title-is-red {
+  color: $primary-red-color;
+}
+
+h3.title-is-white { 
+  color: $white-text-color;
+}

@@ -1,0 +1,24 @@
+.page-header__navigation {
+  
+  .page-header__navigation__menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .page-header__navigation__menu__item {
+
+    margin-right: 2rem;
+  }
+
+  a.page-header__navigation__menu__item__link {
+    padding: 2.2rem 0;
+    color: #000;
+
+    &:hover {
+      color: red;
+      text-decoration: none;
+      border-top: 3px solid red;
+    }
+  }
+}

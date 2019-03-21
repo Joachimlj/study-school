@@ -1,0 +1,84 @@
+.section {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 2rem 0;
+
+  &.has-news {
+    background-color: inherit;
+    padding: 3rem 0 0rem 0;
+  }
+
+  &.has-articles {
+    background-color: #fff;
+    padding: 6rem 0;
+  }
+
+  &.has-text {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    color: $black-text-color;
+    font-weight: 600;
+    
+    a.is-red {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $red-text-color;
+    
+      &::after {
+        position: relative;
+        display: block;
+        height: 1px;
+        content: ' ';
+        width: 6rem;
+        background-color: red;
+        bottom: -0.5rem;
+        left: 0;
+      }
+    }
+  }
+
+
+  &.has-cream-bg {
+    height: 600px;
+    background-color: #FFEBE0;
+    position: relative;
+
+    &::after {
+      display: block;
+      height: 9rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      content: ' ';
+    }
+  }
+
+  &.has-red-bg {
+    height: 600px;
+    background-color: #DB1F44;
+    color: #fff;
+    position: relative;
+
+    .title {
+      color: #fff;
+    }
+
+    &::after {
+      display: block;
+      height: 9rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      content: ' ';
+    }
+  }
+
+  &.has-populated-langeries {
+    background-color: #fff;
+  }
+}

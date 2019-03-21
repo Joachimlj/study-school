@@ -1,0 +1,59 @@
+.page-header {
+  background-color: #fff;
+
+  .navbar-nav {
+    a.nav-link {
+      padding: 2.6rem 0 2.6rem 0;
+      color: $black-text-color;
+      position: relative;
+      transition: all 350ms ease-in;
+
+      &.lang,
+      &.search,
+      &.more {
+        color: $primary-darken-grey-color;
+      }
+
+      &::before {
+        display: block;
+        content: ' ';
+        height: 3px;
+        width: 0;
+        transition: width 350ms ease-in;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+      &:hover::before {
+        width: 100%;
+        background-color: $red-text-color;
+      }
+
+      &:hover {
+        color: $red-text-color;
+      }
+    }
+  }
+
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .logo {
+    width: 200px;
+    padding: 2rem 0;
+  }
+}
+
+
+
+
+.search-bar {
+  display: none;
+  background-color: black;
+  color: #fff;
+  padding: 1.3rem 0;
+  transition: all 350ms ease-in-out;
+}

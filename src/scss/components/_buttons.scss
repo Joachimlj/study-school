@@ -1,0 +1,20 @@
+.btn {
+  padding: 0.7rem 2rem;
+  border: none;
+  color: $black-text-color;
+  font-weight: lighter;
+  
+  &.has-no-border-radius {
+    border-radius: 0;
+  }
+
+  &.is-white {
+    background-color: #ffff;
+    color: red;
+  }
+
+  &.is-red {
+    color: $white-text-color;
+    background-color: $primary-red-color;
+  }
+}
